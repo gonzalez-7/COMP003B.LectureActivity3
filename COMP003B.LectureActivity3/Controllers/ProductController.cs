@@ -31,7 +31,7 @@ namespace COMP003B.LectureActivity3.Controllers
 
         //Get: product/success
         [Route("success")]
-        public IActionResult Sucess(Prodeuct product)
+        public IActionResult Success(Product product)
         {
             // The View() method returns a view that renders a view to the response.
             return View(product);
